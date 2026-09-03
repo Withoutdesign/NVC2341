@@ -1,2 +1,19 @@
-Hello!
-More Stuff
+Chance Lively
+
+Pseudocode Paycheck Practice:
+  User Input: "hourly pay"
+  User Input: "hours worked Monday"
+    Input += Total
+  User Input: "hours worked Tuesday"
+    Input += Total
+  User Input: "hours worked Wednesday"
+    Input += Total
+  User Input: "hours worked Thursday"
+    Input += Total
+  User Input: "hours worked Friday"
+    Input += Total
+  User Input: "hours worked Saturday"
+    Input += Total
+  User Input: "hours worked Sunday"
+    Input += Total
+  Print Total
