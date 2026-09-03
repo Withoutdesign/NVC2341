@@ -20,3 +20,16 @@ text = input
 
 text = text.to.upper
 Print text
+-------------------------
+Pseudocode Total Practice:
+
+variable firstNumber
+variable secondNumber
+  User Input: "number 1"
+    error catch -invalid number-
+firstNumber = input
+  User Input: "number 2"
+    error catch -invalid number-
+secondNumber = input
+
+Print firstNumber + secondNumber
