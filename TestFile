@@ -25,11 +25,31 @@ Pseudocode Total Practice:
 
 variable firstNumber
 variable secondNumber
-  User Input: "number 1"
-    error catch -invalid number-
-firstNumber = input
-  User Input: "number 2"
-    error catch -invalid number-
-secondNumber = input
+
+User Input: "number 1"
+  error catch -invalid number-
+  firstNumber = input
+User Input: "number 2"
+  error catch -invalid number-
+  secondNumber = input
 
 Print firstNumber + secondNumber
+-------------------------
+Pseudocode Unknown Total Practice:
+
+var total
+boolean continue = false
+
+While continue == false
+  User Input: "number"
+    error catch -invalid number-
+    total = total + input
+  User Input: "yes or no"
+    if yes
+      continue = true
+    else if no
+      continue == false
+    else 
+      invalid response
+
+Print Total
