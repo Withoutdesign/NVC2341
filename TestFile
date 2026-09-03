@@ -1,19 +1,13 @@
 Chance Lively
 
 Pseudocode Paycheck Practice:
-  User Input: "hourly pay"
-  User Input: "hours worked Monday"
-    Input += Total
-  User Input: "hours worked Tuesday"
-    Input += Total
-  User Input: "hours worked Wednesday"
-    Input += Total
-  User Input: "hours worked Thursday"
-    Input += Total
-  User Input: "hours worked Friday"
-    Input += Total
-  User Input: "hours worked Saturday"
-    Input += Total
-  User Input: "hours worked Sunday"
-    Input += Total
-  Print Total
+
+variable total
+list dotw = Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+
+FOR EACH day in dotw
+  User Input: "hours worked" + day
+    hours = Input
+    total = total + hours
+
+Print total
