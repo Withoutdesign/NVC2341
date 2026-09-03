@@ -1,6 +1,7 @@
 Chance Lively
 
 Pseudocode Paycheck Practice:
+
 variable total
 list dotw = Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 
@@ -53,3 +54,46 @@ While continue == false
       invalid response
 
 Print Total
+-------------------------
+Pseudocode Maximum VS Random Practice:
+
+var maximum
+var random
+bool retry
+
+User Input: "maximum number"
+  maximum = input
+
+While retry = true
+  if maximum > random
+    Response: "You Win :)"
+  else if maximum < random
+    Response: "You Lose :("
+
+  Response: "Retry?"
+  User input: "yes or no"
+    if yes
+      retry = ture
+    else if no
+      retry = false
+    else
+      invalid response
+-------------------------
+Pseudocode Maximum VS Random Practice:
+
+var left
+var right
+var random
+
+FOR i = 1 to 10
+    random = random number (1 to 100)
+
+    if i is even 
+      right = right + 1
+      Response: "right"
+    if i is odd
+      left = left + 1
+      Response: "left"
+
+Print Right amount
+Print Left amount
