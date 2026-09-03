@@ -1,7 +1,6 @@
 Chance Lively
 
 Pseudocode Paycheck Practice:
-
 variable total
 list dotw = Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 
@@ -11,3 +10,13 @@ FOR EACH day in dotw
     total = total + hours
 
 Print total
+-------------------------
+Pseudocode All Caps Practice:
+
+variable text
+
+User Input: "..."
+text = input
+
+text = text.to.upper
+Print text
